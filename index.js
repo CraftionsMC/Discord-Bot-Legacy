@@ -1,5 +1,5 @@
 const discord = require('discord.js');
-const token = 'NzAzODYxNzY4NjM1Njc4Nzcx.Xsa0aw.QFQBy1DsfKtGLASckXZqkOp6O6Y';
+const token = 'DAS GEHT DICH ÜBERHAUPT NICHTS AN!';
 const bot = new discord.Client();
 const bot_embed = {embed: {
     color: 3447003,
