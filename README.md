@@ -1,7 +1,10 @@
 # Craftions.net Discord Bot
 In der Datei index.js findet ihr den Code unseres Discord Bots. 
 
-# Rechtliches
+## Code
+Dieser Code wurde von MCTzOCK für Craftions.net geschrieben.
+
+## Rechtliches
 Ihr dürft folgendes:
 - Diesen Code bearbeiten (solange ihr einen für die Nutzer sichtbaren Hinweis auf den 'Original-Creator' (MCTzOCK) gebt.
 - Diesen Code nutzen und als Bot auf eurem Server nutzen
