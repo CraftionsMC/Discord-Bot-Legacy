@@ -8,3 +8,6 @@ Ihr dürft folgendes:
 
 Ihr dürft folgendes nicht:
 - Diesen Code auf einer anderen Website (oder auf GitHub) bereitstellen. (Außer es ist ein eindeutig sichtbarer Verweiß auf diese Repository (http://github.com/CraftionsMC/Discord-Bot) gemacht)
+- Diesen Code kommerziell nutzen.
+
+Copyright (c) 2018-2020 MCTzOCK. All rights reserved.
