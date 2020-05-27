@@ -99,12 +99,12 @@ bot.on('message', msg => {
                             allow: ['VIEW_CHANNEL'],
                         },
                         {
-                            id: msg.guild.roles.cache.get('675610243647930378').id,
+                            id: msg.guild.roles.cache.get('EINE_ID').id,
                             allow: ['VIEW_CHANNEL'],
                         }
                     ]
                 );
-                channel.setParent('713659440288628737');
+                channel.setParent('EINE_ID');
                 channel.setName('ticket-' + config.ticket);
                 config.ticket = config.ticket + 1;
                 console.log(config.ticket);
@@ -139,7 +139,7 @@ bot.on('message', msg => {
                             ra += args[index] + " ";
                         }
                     }
-                    announce_channel = bot.channels.find('name', '🎉news');
+                    announce_channel = bot.channels.find('name', 'EIN_NAME');
                     announce_channel.send('@everyone Es gibt eine neue Ankündigung von **' + msg.author.username + '**\n\n' + ra);
                     msg.reply('Folgende Ankündigung wurde gemacht: ' + ra);
                     console.log('New Announcement!');
@@ -166,7 +166,7 @@ bot.on('message', msg => {
                         ra += args[index] + " ";
                     }
                 }
-                announce_channel = bot.channels.find('name', 'team-news');
+                announce_channel = bot.channels.find('name', 'EIN_NAME');
                 announce_channel.send('@here Es gibt eine neue Ankündigung von **' + msg.author.username + '**\n\n' + ra);
                 msg.reply('Folgende Ankündigung wurde gemacht: ' + ra);
                 console.log('New Announcement!');
@@ -191,7 +191,7 @@ bot.on('message', msg => {
                     {
                         if(args[3] === 'plain')
                         {
-                            bot_change = bot.channels.find('name', 'bot-updates');
+                            bot_change = bot.channels.find('name', 'EIN_NAME');
                             bot_change.send("**BOT Update**\n\nNeues Update mit der Version **" + args[4] + "**\n\nVeröffentlicht von " + args[5] + "\n\nBeschreibung: ```" + desc + "```");
                         }
                         if(args[3] === 'rich')
