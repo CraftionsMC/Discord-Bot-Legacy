@@ -1,5 +1,5 @@
 const discord = require('discord.js');
-const token = 'DAS GEHT DIDC NICHTS AN!';
+const token = 'DAS GEHT DICH NICHTS AN!';
 const bot = new discord.Client();
 const fs = require('fs');
 const bot_embed = {embed: {
