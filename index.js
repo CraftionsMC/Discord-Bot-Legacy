@@ -120,7 +120,10 @@ bot.on('message', msg => {
         }
         if(msg.content === '!bot ticket close')
         {
-            msg.channel.delete();
+            if(msg.channel.name.startsWith('ticket-'))
+            {
+                msg.channel.delete();
+            }
         }
         if(msg.content.startsWith('!bot announce'))
         {
