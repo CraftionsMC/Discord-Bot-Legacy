@@ -1,5 +1,5 @@
 # Craftions.net Discord Bot
-In der Datei index.js findet ihr den Code unseres Discord Bots. 
+In der Datei index.js findet ihr den Code unseres Discord Bots. Test
 
 ## Code
 Dieser Code wurde von MCTzOCK für Craftions.net geschrieben.
